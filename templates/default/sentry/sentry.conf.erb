@@ -50,6 +50,7 @@ EMAIL_HOST_USER = "<%= @email['user'] %>"
 EMAIL_PORT = <%= @email['port'] %>
 EMAIL_USE_TLS = <%= @email['use_tls'] || "False" %>
 
+SENTRY_ADMIN_EMAIL = "<%= @admin_email %>"
 
 <% for network, params in @social %>
    <% for param, value in params %>

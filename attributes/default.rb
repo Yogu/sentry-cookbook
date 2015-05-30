@@ -71,6 +71,8 @@ default["sentry"]["settings"]["email"] = {
   "use_tls" => 'False',
 }
 
+default["sentry"]["settings"]["admin_email"] = 'root@localhost'
+
   # Social settings
 default["sentry"]["settings"]["social"] = {
   "twitter" => {
